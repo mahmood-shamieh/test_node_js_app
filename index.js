@@ -4,10 +4,10 @@ const app = express();
 
 // create a new MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
+    host: 'roundhouse.proxy.rlwy.net',
     user: 'root',
-    password: '',
-    database: 'al_shamel'
+    password: 'tIIDmSgxVwjpNFByMAMGrhvMQBmlPWTX',
+    database: 'railway'
 });
 // connect to the MySQL database
 connection.connect((error) => {
